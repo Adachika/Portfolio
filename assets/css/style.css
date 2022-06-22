@@ -1,3 +1,9 @@
+:root {
+    --blk: #0a2527;
+    --white:#d9dcd6;
+    --grey: #808080;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,13 +11,13 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--white);
 }
 
 header {
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #bc8f8f;
-    color: #ffffff;
+    background-color: var(--blk);
     top: 0;
     position: sticky;
 }
@@ -19,7 +25,10 @@ header {
 header h1 {
     display: inline-block;
     font-size: 36px;
+    color: #ffffff;
+    margin-left: 25px;
 }
+
 
 header nav {
     padding-top: 15px;
@@ -27,28 +36,62 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    
 }
 
 header nav ul {
     list-style-type: none;
-    
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;   
+    margin-left: 25px;
 }
 
 .nav-link {
-    color: #808080;
-}
-
-a {
-    color: #ffffff;
+    color: var(--grey);
     text-decoration: none;
 }
 
-a:hover {   /* added to make the navigation link change color when the cursor is placed on it*/
+.nav-link:hover {   
     color: #F0E68C;
+} 
+
+section {
+    padding: 10px;
 }
+
+.hero {
+    height: 60vh;
+    background-image: url("../images/hero.jpg"); 
+    background-size: cover;
+    position: relative;
+}
+
+.hero h2 {
+    background-color: var(--blk);
+    color: var(--white);
+    font-size: 25px;
+    margin-top: 200px;
+    font-style: italic;
+    float: right;
+}
+
+.profile-photo {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    height: 150px;
+    width: 150px;
+    border: 5px var(--grey);
+    border-style: solid;
+}
+
+/*div.hero img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
