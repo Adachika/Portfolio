@@ -15,4 +15,4 @@ Welcome to my personal portfolio. A personal portfolio is an indispensable part 
 
 
 ### Credits
-https://github.com/Anagha778/portfolio
+Anagha778
