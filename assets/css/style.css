@@ -73,7 +73,7 @@ section {
 .hero h2 {
     background-color: var(--blk);
     color: var(--white);
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 200px;
     font-style: italic;
     float: right;
@@ -137,8 +137,8 @@ section {
 }
 .side-bar2{
     border-right: 3px solid var(--side-border);
-    height: 450px;
-    flex: 2 5%;  
+    height: 650px;
+    flex: 2 13%;  
     
   }
 
@@ -224,10 +224,17 @@ figcaption{
     grid-row-end: 5;
 }
 
+.gallery-item-small-5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
 .side-bar3 {
     border-right: 3px solid var(--side-border);
     height: 100px;
-    flex: 2 5%;
+    flex: 2 7.5%;
    
   }
   
